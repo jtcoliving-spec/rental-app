@@ -1,1 +1,1 @@
-# JT-rental-app
+# rental-app

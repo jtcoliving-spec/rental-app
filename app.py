@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 RATE_PER_UNIT = 0.60
-SHEET_URL = "YOUR_GOOGLE_SHEET_URL_HERE" # Ensure this is your link
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1UGG66jyHsNoPwAINcdsgg6oXyEq4WslAOnxLmiTJ7Z0/edit?usp=sharing" # Ensure this is your link
 
 st.set_page_config(page_title="Rental Management Pro", layout="wide")
 conn = st.connection("gsheets", type=GSheetsConnection)
